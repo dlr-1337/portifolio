@@ -132,7 +132,7 @@ export const siteContent: SiteContent = {
     title: "Otavio Queiroz | Desenvolvedor Full Stack Senior",
     description:
       "Portfolio de Otavio Queiroz com projetos full stack em React, Next.js, Node.js e arquitetura de software orientada a impacto.",
-    siteUrl: "https://otavioqueiroz.dev",
+    siteUrl: "https://otavioqueiroz.com",
     ogImage: "/og/portfolio-cover.svg",
     locale: "pt_BR",
     keywords: [
