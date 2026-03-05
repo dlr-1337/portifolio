@@ -2,31 +2,32 @@ import type { SiteContent } from "@/types/content";
 
 export const siteContent: SiteContent = {
   person: {
-    name: "Otavio Ribeiro",
-    role: "Desenvolvedor Fullstack End-to-End",
-    location: "Sao Paulo, Brasil",
-    availability: "Disponivel para SaaS e startups com roadmap agressivo",
-    tagline: "Do discovery ao deploy: backend, frontend e dados com foco em resultado.",
+    name: "Otavio Queiroz",
+    role: "Desenvolvedor Full Stack Senior / Software Engineer",
+    location: "GO - Brasil (Remoto)",
+    availability: "Aberto a novos desafios / Full-time",
+    tagline:
+      "Arquitetando solucoes escalaveis e transformando problemas complexos em produtos de alto impacto.",
   },
   hero: {
     eyebrow: "Portfolio 2026",
-    headline: "Desenvolvedor Fullstack End-to-End para SaaS e Startups",
+    headline: "Desenvolvedor Full Stack Senior para produtos digitais de alto impacto",
     subheadline:
-      "Planejo, construo e escalo produtos digitais cobrindo arquitetura, APIs Node.js, banco SQL, frontend em Next.js e deploy em producao.",
+      "Projeto, construo e evoluo aplicacoes web do discovery ao deploy com foco em performance, experiencia de usuario e resultado de negocio.",
     primaryCtaLabel: "Falar no WhatsApp",
     secondaryCtaLabel: "Enviar email",
   },
   manifesto: {
-    title: "Manifesto de Produto",
+    title: "Manifesto de Engenharia",
     paragraphs: [
-      "Produto bom nasce quando backend, frontend e dados evoluem juntos. Eu trabalho ponta a ponta para evitar silos, reduzir retrabalho e acelerar entrega de valor.",
-      "Minha abordagem fullstack combina arquitetura pragmatica, APIs bem definidas, modelagem SQL consistente e interface orientada a conversao para mover metricas reais de negocio.",
+      "Acredito em engenharia orientada a impacto: arquitetura clara, codigo sustentavel e decisoes tecnicas alinhadas ao objetivo do produto.",
+      "Minha abordagem full stack conecta backend, frontend e dados para acelerar entregas com qualidade, sem abrir mao de escalabilidade e experiencia do usuario.",
     ],
   },
   projects: {
     title: "Projetos em destaque",
     subtitle:
-      "Cases fullstack para SaaS e startups, conectando produto, engenharia e crescimento.",
+      "Produtos desenvolvidos do zero com foco em usabilidade, performance e evolucao continua.",
     labels: {
       context: "Contexto",
       solution: "Solucao",
@@ -34,112 +35,112 @@ export const siteContent: SiteContent = {
     },
     items: [
       {
-        slug: "onboarding-e-cobranca-saas",
-        title: "Plataforma SaaS de Onboarding e Cobranca",
+        slug: "taskflow-kanban",
+        title: "TaskFlow - Gerenciador de Tarefas Kanban",
         context:
-          "Startup B2B com trial alto e ativacao baixa por fluxo fragmentado entre onboarding, billing e notificacoes.",
+          "Equipes pequenas e freelancers precisavam de uma ferramenta agil para organizar fluxos de trabalho diarios sem a complexidade de plataformas maiores.",
         solution:
-          "Redesenhei a jornada ponta a ponta com backend Node.js, integracao Stripe, modelagem SQL e frontend Next.js com onboarding guiado por eventos.",
+          "Desenvolvimento de uma aplicacao web completa com autenticacao, criacao de quadros personalizaveis e drag-and-drop para movimentar tarefas entre colunas com fluidez.",
         impact:
-          "A ativacao de trial para conta pagante subiu 34% e o tempo de implementacao de novas regras comerciais caiu 45%.",
-        stack: ["Next.js", "Node.js", "PostgreSQL", "Stripe API"],
+          "Entrega de uma interface intuitiva e responsiva com API RESTful eficiente, garantindo persistencia imediata e evitando perda de informacoes durante o uso.",
+        stack: ["React", "Node.js", "Express", "PostgreSQL", "Tailwind CSS"],
         links: [
-          { label: "Ver projeto", href: "https://example.com/saas-case" },
-          { label: "Repositorio", href: "https://github.com/otavio/saas-case" },
+          { label: "Live Demo", href: "https://taskflow.otavioqueiroz.dev" },
+          { label: "Repositorio", href: "https://github.com/dlr-1337/taskflow-kanban" },
         ],
       },
       {
-        slug: "hub-automacao-comercial",
-        title: "Hub de Automacao Comercial para Startup B2B",
+        slug: "imobifinder-catalogo",
+        title: "ImobiFinder - Catalogo de Imoveis Inteligente",
         context:
-          "Time comercial perdia oportunidades por processos manuais e falta de sincronizacao entre CRM, app e canais de contato.",
+          "Usuarios enfrentavam plataformas lentas e filtros limitados para encontrar imoveis, enquanto corretores precisavam de um painel simples para cadastro de propriedades.",
         solution:
-          "Implementei backend de orquestracao com filas e webhooks, persistencia SQL e painel operacional em Next.js para controle de funis em tempo real.",
+          "Criacao de uma plataforma com busca avancada por preco, localizacao e quartos, integrada a mapas, alem de painel administrativo seguro para gestao do catalogo e upload otimizado de imagens.",
         impact:
-          "Reducao de 52% em tarefas manuais do comercial e ganho de 27% na conversao de lead qualificado para demo.",
-        stack: ["Next.js", "NestJS", "SQL", "Webhooks"],
+          "Melhora no tempo de carregamento com lazy loading de imagens, ganho de SEO tecnico e experiencia de busca mais rapida para o usuario final.",
+        stack: ["Next.js", "TypeScript", "Prisma", "MongoDB", "Mapbox API"],
         links: [
-          { label: "Ver projeto", href: "https://example.com/edu-case" },
-          { label: "Estudo completo", href: "https://example.com/edu-doc" },
+          { label: "Ver Projeto", href: "https://imobifinder.otavioqueiroz.dev" },
+          { label: "Repositorio", href: "https://github.com/dlr-1337/imobi-finder" },
         ],
       },
       {
-        slug: "painel-operacional-realtime",
-        title: "Painel Operacional com Integracoes em Tempo Real",
+        slug: "wallettrack-dashboard",
+        title: "WalletTrack - Dashboard de Financas Pessoais",
         context:
-          "Operacao sem visibilidade consolidada de incidentes, SLAs e gargalos entre diferentes fontes de dados.",
+          "Pessoas fisicas tinham dificuldade para visualizar para onde o dinheiro estava indo ao longo dos meses com planilhas estaticas e controles manuais.",
         solution:
-          "Estruturei pipelines de ingestao, consultas SQL otimizadas e API backend para alimentar interface reativa com alertas e acoes priorizadas.",
+          "Construcao de um painel financeiro interativo para gerenciar receitas e despesas, com relatorios visuais automaticos por categoria e calculo do balanco mensal.",
         impact:
-          "Tempo medio de resposta a incidentes criticos caiu 38% e o cumprimento de SLA aumentou 21% no primeiro trimestre.",
-        stack: ["React", "Node.js", "PostgreSQL", "Queues"],
+          "Implementacao de ciclo de vida completo de usuario com cadastro, login e recuperacao de senha, gerando visualizacao clara dos dados e apoio a educacao financeira.",
+        stack: ["React", "Firebase Auth", "Firebase Firestore", "Chart.js"],
         links: [
-          { label: "Ver projeto", href: "https://example.com/ops-case" },
-          { label: "Repositorio", href: "https://github.com/otavio/ops-case" },
+          { label: "Ver Projeto", href: "https://wallettrack.otavioqueiroz.dev" },
+          { label: "Repositorio", href: "https://github.com/dlr-1337/wallet-track" },
         ],
       },
     ],
   },
   process: {
-    title: "Processo Fullstack",
+    title: "Processo de Entrega",
     timeline: [
       {
-        stage: "01. Diagnostico de Produto",
+        stage: "01. Descoberta e Planejamento",
         description:
-          "Entendimento de metas de negocio, restricoes tecnicas e prioridade de impacto para SaaS em crescimento.",
+          "Mapeamento de objetivos, regras de negocio e requisitos tecnicos para definir um escopo viavel e orientado a resultado.",
       },
       {
-        stage: "02. Arquitetura e Dados",
+        stage: "02. Arquitetura e Implementacao",
         description:
-          "Definicao de contratos de API, modelagem SQL e estrategia de escalabilidade para evitar gargalos futuros.",
+          "Estruturacao de backend, banco de dados e frontend com foco em manutenibilidade, performance e escalabilidade.",
       },
       {
-        stage: "03. Backend e Integracoes",
+        stage: "03. Qualidade e Integracoes",
         description:
-          "Implementacao de servicos, autenticao, filas, webhooks e observabilidade com codigo legivel e testavel.",
+          "Aplicacao de boas praticas de teste, observabilidade e integracoes com servicos externos para garantir confiabilidade.",
       },
       {
-        stage: "04. Frontend, Deploy e Iteracao",
+        stage: "04. Deploy e Evolucao Continua",
         description:
-          "Entrega da experiencia em Next.js, deploy continuo e ciclos curtos de melhoria guiados por dados de uso.",
+          "Publicacao em producao com monitoramento ativo e ciclos iterativos de melhoria baseados em dados reais de uso.",
       },
     ],
   },
   contact: {
-    title: "Vamos construir algo memoravel",
+    title: "Vamos construir o proximo produto?",
     description:
-      "Se voce precisa de um fullstack para tirar produto SaaS do papel ou escalar uma base existente, eu posso assumir ponta a ponta.",
+      "Se voce busca um engenheiro full stack para transformar uma ideia em produto escalavel ou evoluir uma solucao existente, posso assumir do planejamento a entrega.",
     highlight:
-      "Escopo claro, entregas semanais e foco total em resultado de produto e negocio.",
+      "Escopo claro, execucao consistente e foco em impacto real para negocio e usuario.",
     socialCtaLabel: "Tambem me encontre em:",
   },
   footer: {
-    signature: "Otavio Ribeiro",
+    signature: "Otavio Queiroz",
     rights: "Todos os direitos reservados.",
   },
   socialLinks: {
-    whatsapp: "https://wa.me/5511999999999",
-    email: "mailto:otavio.dev@exemplo.com",
-    github: "https://github.com/otavio",
-    linkedin: "https://www.linkedin.com/in/otavio",
+    whatsapp: "https://wa.me/556493012485",
+    email: "mailto:contato@otavioqueiroz.com",
+    github: "https://github.com/dlr-1337",
+    linkedin: "https://linkedin.com/in/otavioqueiroz",
   },
   socialLabels: {
     github: "GitHub",
     linkedin: "LinkedIn",
   },
   seo: {
-    title: "Otavio Ribeiro | Desenvolvedor Fullstack para SaaS",
+    title: "Otavio Queiroz | Desenvolvedor Full Stack Senior",
     description:
-      "Portfolio de desenvolvedor fullstack end-to-end para SaaS e startups com cases em Next.js, Node.js e SQL.",
-    siteUrl: "https://otavioribeiro.dev",
+      "Portfolio de Otavio Queiroz com projetos full stack em React, Next.js, Node.js e arquitetura de software orientada a impacto.",
+    siteUrl: "https://otavioqueiroz.dev",
     ogImage: "/og/portfolio-cover.svg",
     locale: "pt_BR",
     keywords: [
-      "desenvolvedor fullstack",
-      "fullstack saas",
-      "next.js node.js sql",
-      "engenheiro de produto",
-      "startup b2b",
+      "desenvolvedor full stack senior",
+      "software engineer brasil",
+      "react node.js",
+      "next.js typescript",
+      "portfolio desenvolvedor",
     ],
   },
 };

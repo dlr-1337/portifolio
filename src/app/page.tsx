@@ -16,7 +16,7 @@ const creativeWorkSchema = siteContent.projects.items.map((project) => ({
   "@type": "CreativeWork",
   name: project.title,
   description: project.solution,
-  url: absoluteUrl(`/projetos/${project.slug}`),
+  url: absoluteUrl(project.links[0]?.href ?? siteContent.seo.siteUrl),
   keywords: project.stack.join(", "),
   creator: {
     "@type": "Person",
