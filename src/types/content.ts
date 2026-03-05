@@ -36,10 +36,6 @@ export interface SiteContent {
     primaryCtaLabel: string;
     secondaryCtaLabel: string;
   };
-  manifesto: {
-    title: string;
-    paragraphs: string[];
-  };
   projects: {
     title: string;
     subtitle: string;
@@ -49,13 +45,6 @@ export interface SiteContent {
       impact: string;
     };
     items: ProjectCase[];
-  };
-  process: {
-    title: string;
-    timeline: Array<{
-      stage: string;
-      description: string;
-    }>;
   };
   contact: {
     title: string;

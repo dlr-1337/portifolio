@@ -2,8 +2,8 @@ import type { SiteContent } from "@/types/content";
 
 export const siteContent: SiteContent = {
   person: {
-    name: "Otavio Queiroz",
-    role: "Desenvolvedor Full Stack Senior / Software Engineer",
+    name: "Otávio Queiroz",
+    role: "Desenvolvedor Full Stack / Software Engineer",
     location: "GO - Brasil (Remoto)",
     availability: "Aberto a novos desafios / Full-time",
     tagline:
@@ -11,18 +11,11 @@ export const siteContent: SiteContent = {
   },
   hero: {
     eyebrow: "Portfolio 2026",
-    headline: "Desenvolvedor Full Stack Senior para produtos digitais de alto impacto",
+    headline: "Desenvolvedor Full Stack para produtos digitais de alto impacto",
     subheadline:
       "Projeto, construo e evoluo aplicacoes web do discovery ao deploy com foco em performance, experiencia de usuario e resultado de negocio.",
     primaryCtaLabel: "Falar no WhatsApp",
     secondaryCtaLabel: "Enviar email",
-  },
-  manifesto: {
-    title: "Manifesto de Engenharia",
-    paragraphs: [
-      "Acredito em engenharia orientada a impacto: arquitetura clara, codigo sustentavel e decisoes tecnicas alinhadas ao objetivo do produto.",
-      "Minha abordagem full stack conecta backend, frontend e dados para acelerar entregas com qualidade, sem abrir mao de escalabilidade e experiencia do usuario.",
-    ],
   },
   projects: {
     title: "Projetos em destaque",
@@ -81,31 +74,6 @@ export const siteContent: SiteContent = {
       },
     ],
   },
-  process: {
-    title: "Processo de Entrega",
-    timeline: [
-      {
-        stage: "01. Descoberta e Planejamento",
-        description:
-          "Mapeamento de objetivos, regras de negocio e requisitos tecnicos para definir um escopo viavel e orientado a resultado.",
-      },
-      {
-        stage: "02. Arquitetura e Implementacao",
-        description:
-          "Estruturacao de backend, banco de dados e frontend com foco em manutenibilidade, performance e escalabilidade.",
-      },
-      {
-        stage: "03. Qualidade e Integracoes",
-        description:
-          "Aplicacao de boas praticas de teste, observabilidade e integracoes com servicos externos para garantir confiabilidade.",
-      },
-      {
-        stage: "04. Deploy e Evolucao Continua",
-        description:
-          "Publicacao em producao com monitoramento ativo e ciclos iterativos de melhoria baseados em dados reais de uso.",
-      },
-    ],
-  },
   contact: {
     title: "Vamos construir o proximo produto?",
     description:
@@ -115,7 +83,7 @@ export const siteContent: SiteContent = {
     socialCtaLabel: "Tambem me encontre em:",
   },
   footer: {
-    signature: "Otavio Queiroz",
+    signature: "Otávio Queiroz",
     rights: "Todos os direitos reservados.",
   },
   socialLinks: {
@@ -129,14 +97,14 @@ export const siteContent: SiteContent = {
     linkedin: "LinkedIn",
   },
   seo: {
-    title: "Otavio Queiroz | Desenvolvedor Full Stack Senior",
+    title: "Otávio Queiroz | Desenvolvedor Full Stack",
     description:
-      "Portfolio de Otavio Queiroz com projetos full stack em React, Next.js, Node.js e arquitetura de software orientada a impacto.",
+      "Portfolio de Otávio Queiroz com projetos full stack em React, Next.js, Node.js e arquitetura de software orientada a impacto.",
     siteUrl: "https://otavioqueiroz.com",
     ogImage: "/og/portfolio-cover.svg",
     locale: "pt_BR",
     keywords: [
-      "desenvolvedor full stack senior",
+      "desenvolvedor full stack",
       "software engineer brasil",
       "react node.js",
       "next.js typescript",

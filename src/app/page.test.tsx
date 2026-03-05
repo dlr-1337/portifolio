@@ -12,14 +12,12 @@ describe("Homepage", () => {
 
     expect(
       screen.getByRole("heading", {
-        name: /desenvolvedor full stack senior para produtos digitais de alto impacto/i,
+        name: /desenvolvedor full stack para produtos digitais de alto impacto/i,
       }),
     ).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: /manifesto de engenharia/i })).toBeInTheDocument();
     expect(
       screen.getByRole("heading", { name: /projetos em destaque/i }),
     ).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: /processo de entrega/i })).toBeInTheDocument();
     expect(
       screen.getByRole("heading", { name: /vamos construir o proximo produto/i }),
     ).toBeInTheDocument();

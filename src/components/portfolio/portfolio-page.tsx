@@ -59,24 +59,6 @@ export function PortfolioPage({ content }: PortfolioPageProps) {
         </motion.section>
 
         <motion.section
-          id="manifesto"
-          className="section-frame"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.28 }}
-          transition={sectionTransition}
-          variants={reveal}
-        >
-          <p className="eyebrow">{content.person.name}</p>
-          <h2 className="section-title">{content.manifesto.title}</h2>
-          <div className="grid gap-5 text-[1.12rem] leading-relaxed text-[var(--ink-soft)] md:grid-cols-2">
-            {content.manifesto.paragraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-          </div>
-        </motion.section>
-
-        <motion.section
           id="projetos"
           initial="hidden"
           whileInView="visible"
@@ -132,26 +114,6 @@ export function PortfolioPage({ content }: PortfolioPageProps) {
               </article>
             ))}
           </div>
-        </motion.section>
-
-        <motion.section
-          id="processo"
-          className="section-frame"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.25 }}
-          transition={sectionTransition}
-          variants={reveal}
-        >
-          <h2 className="section-title">{content.process.title}</h2>
-          <ol className="timeline-list">
-            {content.process.timeline.map((step) => (
-              <li key={step.stage} className="timeline-item">
-                <h3 className="timeline-stage">{step.stage}</h3>
-                <p className="timeline-description">{step.description}</p>
-              </li>
-            ))}
-          </ol>
         </motion.section>
 
         <motion.section
