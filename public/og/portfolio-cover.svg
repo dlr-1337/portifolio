@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7EFDF" />
+      <stop offset="1" stop-color="#ECE6D7" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="170" cy="120" r="180" fill="#D84B1E" fill-opacity="0.12" />
+  <circle cx="1080" cy="120" r="170" fill="#0F636A" fill-opacity="0.15" />
+  <rect x="84" y="82" width="1032" height="466" rx="28" fill="#FFF9EF" stroke="#CCB69E" />
+  <text x="140" y="178" fill="#0F636A" font-family="Courier New, monospace" font-size="24" letter-spacing="8">
+    PORTFOLIO 2026
+  </text>
+  <text x="140" y="262" fill="#1F1610" font-family="Arial Black, sans-serif" font-size="78" font-weight="700">
+    Portfolio Editorial
+  </text>
+  <text x="140" y="344" fill="#1F1610" font-family="Arial Black, sans-serif" font-size="78" font-weight="700">
+    para produtos digitais
+  </text>
+  <text x="140" y="426" fill="#1F1610" font-family="Arial Black, sans-serif" font-size="78" font-weight="700">
+    memoraveis
+  </text>
+  <text x="140" y="488" fill="#534438" font-family="Georgia, serif" font-size="32">
+    Otavio Ribeiro • Product Engineer & Frontend Architect
+  </text>
+</svg>
