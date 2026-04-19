@@ -11,11 +11,13 @@ const personSchema = {
   sameAs: [siteContent.socialLinks.github, siteContent.socialLinks.linkedin],
 };
 
-const creativeWorkSchema = siteContent.projects.items.map((project) => ({
+const creativeWorkSchema = siteContent.featuredCases.items
+  .filter((project) => project.visibility === "public")
+  .map((project) => ({
   "@context": "https://schema.org",
   "@type": "CreativeWork",
   name: project.title,
-  description: project.solution,
+  description: `${project.solution} ${project.businessValue}`,
   url: absoluteUrl(project.links[0]?.href ?? siteContent.seo.siteUrl),
   keywords: project.stack.join(", "),
   creator: {
