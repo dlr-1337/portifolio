@@ -1,27 +1,91 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F7F2E8"/>
+  <rect x="32" y="32" width="1136" height="566" rx="28" fill="#FDF9F1" stroke="#DDD0B4"/>
+  <rect x="32" y="32" width="1136" height="566" rx="28" fill="url(#grain)" opacity="0.16"/>
+
+  <path d="M80 110H1120" stroke="#DDD0B4"/>
+  <path d="M80 520H1120" stroke="#DDD0B4"/>
+  <path d="M744 132V498" stroke="#DDD0B4"/>
+
+  <circle cx="108" cy="79" r="6" fill="#C4753E"/>
+  <text x="126" y="86" fill="#1A1612" font-family="'Instrument Serif', serif" font-size="34">Otavio</text>
+  <text x="232" y="86" fill="#8F8370" font-family="'Geist Mono', monospace" font-size="14" letter-spacing="2.8">FULLSTACK</text>
+
+  <rect x="80" y="138" width="334" height="34" rx="17" fill="#EFE8D8" stroke="#DDD0B4"/>
+  <circle cx="102" cy="155" r="4.5" fill="#5C9B4A"/>
+  <text x="118" y="160" fill="#3D342A" font-family="'Geist Mono', monospace" font-size="13" letter-spacing="1.2">
+    DISPONIVEL PARA PROJETOS SELECIONADOS
+  </text>
+
+  <text x="80" y="216" fill="#8F8370" font-family="'Geist Mono', monospace" font-size="14" letter-spacing="3.2">
+    OPERATING SYSTEM DE ENTREGA
+  </text>
+
+  <text x="80" y="304" fill="#1A1612" font-family="'Instrument Serif', serif" font-size="78" letter-spacing="-2.6">
+    <tspan x="80" dy="0">Assumo a engenharia</tspan>
+    <tspan x="80" dy="82">sem caos</tspan>
+    <tspan x="80" dy="82">e com entrega.</tspan>
+  </text>
+
+  <rect x="76" y="317" width="266" height="14" rx="7" fill="#F0DBC0"/>
+
+  <text x="80" y="474" fill="#3D342A" font-family="'Geist', sans-serif" font-size="27">
+    <tspan x="80" dy="0">Sistemas, integracoes, automacoes, IA aplicada,</tspan>
+    <tspan x="80" dy="36">deploy e evolucao com foco em operacao.</tspan>
+  </text>
+
+  <text x="80" y="555" fill="#8F8370" font-family="'Geist Mono', monospace" font-size="14" letter-spacing="2.8">
+    WHATSAPP  /  GITHUB  /  99FREELAS
+  </text>
+
+  <rect x="790" y="150" width="310" height="284" rx="26" fill="#1A1612"/>
+  <rect x="790" y="150" width="310" height="284" rx="26" stroke="#2A241C"/>
+  <circle cx="822" cy="182" r="6" fill="#D8725D"/>
+  <circle cx="844" cy="182" r="6" fill="#DAB767"/>
+  <circle cx="866" cy="182" r="6" fill="#6EAF74"/>
+  <text x="905" y="187" fill="#8F8370" font-family="'Geist Mono', monospace" font-size="13" letter-spacing="1.4">
+    otavio.delivery
+  </text>
+
+  <text x="820" y="233" fill="#C9BBA4" font-family="'Geist Mono', monospace" font-size="15">
+    <tspan x="820" dy="0">$ whoami</tspan>
+    <tspan x="820" dy="30" fill="#F4EFE6">Otavio Queiroz // full stack senior</tspan>
+    <tspan x="820" dy="42" fill="#C9BBA4">$ cat scope.json</tspan>
+    <tspan x="820" dy="30" fill="#F4EFE6">{ systems, integrations, ai, deploy }</tspan>
+    <tspan x="820" dy="42" fill="#C9BBA4">$ status</tspan>
+    <tspan x="820" dy="30" fill="#F4EFE6">organizo backlog, executo e estabilizo</tspan>
+    <tspan x="820" dy="42" fill="#C9BBA4">$ channels</tspan>
+    <tspan x="820" dy="30" fill="#F4EFE6">whatsapp / github / 99freelas</tspan>
+  </text>
+
+  <g transform="rotate(-6 1072 124)">
+    <rect x="942" y="96" width="180" height="58" rx="18" fill="#1A1612"/>
+    <text x="968" y="130" fill="#F7F2E8" font-family="'Geist Mono', monospace" font-size="18" letter-spacing="1.2">
+      4,77/5 no 99Freelas
+    </text>
+  </g>
+
+  <g transform="rotate(5 1000 466)">
+    <rect x="880" y="438" width="200" height="58" rx="18" fill="#EFE8D8" stroke="#DDD0B4"/>
+    <text x="912" y="472" fill="#1A1612" font-family="'Geist Mono', monospace" font-size="18" letter-spacing="1.2">
+      10 projetos concluidos
+    </text>
+  </g>
+
+  <rect x="790" y="456" width="310" height="42" rx="21" fill="#F0DBC0"/>
+  <text x="820" y="482" fill="#8F4E20" font-family="'Geist Mono', monospace" font-size="15" letter-spacing="1.6">
+    CONSULTORIA TECNICA  ·  FULL DELIVERY
+  </text>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F7EFDF" />
-      <stop offset="1" stop-color="#ECE6D7" />
-    </linearGradient>
+    <pattern id="grain" width="140" height="140" patternUnits="userSpaceOnUse">
+      <circle cx="24" cy="18" r="0.8" fill="#1A1612"/>
+      <circle cx="62" cy="48" r="0.9" fill="#1A1612"/>
+      <circle cx="101" cy="22" r="0.7" fill="#1A1612"/>
+      <circle cx="120" cy="96" r="0.8" fill="#1A1612"/>
+      <circle cx="38" cy="108" r="0.7" fill="#1A1612"/>
+      <circle cx="88" cy="126" r="0.9" fill="#1A1612"/>
+      <circle cx="18" cy="74" r="0.7" fill="#1A1612"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)" />
-  <circle cx="170" cy="120" r="180" fill="#D84B1E" fill-opacity="0.12" />
-  <circle cx="1080" cy="120" r="170" fill="#0F636A" fill-opacity="0.15" />
-  <rect x="84" y="82" width="1032" height="466" rx="28" fill="#FFF9EF" stroke="#CCB69E" />
-  <text x="140" y="178" fill="#0F636A" font-family="Courier New, monospace" font-size="24" letter-spacing="8">
-    PORTFOLIO 2026
-  </text>
-  <text x="140" y="262" fill="#1F1610" font-family="Arial Black, sans-serif" font-size="78" font-weight="700">
-    Portfolio Editorial
-  </text>
-  <text x="140" y="344" fill="#1F1610" font-family="Arial Black, sans-serif" font-size="78" font-weight="700">
-    para produtos digitais
-  </text>
-  <text x="140" y="426" fill="#1F1610" font-family="Arial Black, sans-serif" font-size="78" font-weight="700">
-    memoraveis
-  </text>
-  <text x="140" y="488" fill="#534438" font-family="Georgia, serif" font-size="32">
-    Otavio Ribeiro • Product Engineer & Frontend Architect
-  </text>
 </svg>

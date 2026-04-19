@@ -1,24 +1,22 @@
 import type { Metadata } from "next";
-import { Newsreader, Space_Mono, Syne } from "next/font/google";
+import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import { absoluteUrl, siteContent } from "@/content/site";
 import "./globals.css";
 
-const displayFont = Syne({
-  variable: "--font-syne",
+const displayFont = Instrument_Serif({
+  variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "700", "800"],
+  weight: ["400"],
 });
 
-const bodyFont = Newsreader({
-  variable: "--font-newsreader",
+const bodyFont = Geist({
+  variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
 });
 
-const monoFont = Space_Mono({
-  variable: "--font-space-mono",
+const monoFont = Geist_Mono({
+  variable: "--font-mono",
   subsets: ["latin"],
-  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -29,7 +27,7 @@ export const metadata: Metadata = {
   },
   description: siteContent.seo.description,
   keywords: siteContent.seo.keywords,
-  category: "portfolio",
+  category: "technology",
   alternates: {
     canonical: siteContent.seo.siteUrl,
   },
