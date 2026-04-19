@@ -19,7 +19,7 @@ export function HeroSection({ hero, socialLinks, socialLabels }: HeroSectionProp
       transition={sectionTransition}
       variants={sectionReveal}
     >
-      <div>
+      <div className="hero-copy">
         <div className="hero-badge">
           <span className="dot" />
           <span>{hero.badge}</span>

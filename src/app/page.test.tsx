@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, within } from "@testing-library/react";
 import { afterEach, describe, expect, it } from "vitest";
 import Home from "./page";
 
@@ -105,5 +105,19 @@ describe("Homepage", () => {
     expect(schemaScripts).not.toMatch(/quotex-trading-platform/i);
     expect(schemaScripts).not.toMatch(/fullauto99/i);
     expect(schemaScripts).not.toMatch(/99freelas/i);
+  });
+
+  it("mantem a estrutura do hero e dos blocos finais ao centralizar a landing", () => {
+    const { container } = render(<Home />);
+    const navigation = screen.getByRole("navigation", { name: /navegacao primaria/i });
+
+    expect(navigation).toBeInTheDocument();
+    expect(container.querySelector(".hero-copy")).toBeInTheDocument();
+    expect(container.querySelector(".hero-visual")).toBeInTheDocument();
+    expect(within(navigation).getByRole("link", { name: /orcamento/i })).toBeInTheDocument();
+    expect(container.querySelectorAll(".contact-card")).toHaveLength(4);
+    expect(
+      screen.getByText(/github e linkedin disponiveis como referencia publica/i),
+    ).toBeInTheDocument();
   });
 });

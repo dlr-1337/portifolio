@@ -205,6 +205,15 @@ main > section {
   align-items: center;
 }
 
+.hero-copy {
+  width: min(100%, 720px);
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .hero-badge {
   display: inline-flex;
   align-items: center;
@@ -285,7 +294,7 @@ main > section {
   font-size: 20px;
   color: var(--ink-soft);
   max-width: 620px;
-  margin-bottom: 34px;
+  margin: 0 auto 34px;
   line-height: 1.55;
 }
 
@@ -295,6 +304,10 @@ main > section {
   gap: 16px;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.hero-cta-row {
+  justify-content: center;
 }
 
 .btn-primary,
@@ -518,8 +531,10 @@ main > section {
 
 .hero-social-links {
   position: absolute;
-  left: 0;
+  left: 50%;
   bottom: -72px;
+  transform: translateX(-50%);
+  justify-content: center;
 }
 
 .hero-social-links a {
@@ -574,10 +589,18 @@ main > section {
 
 .section-head {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
   gap: 24px;
   margin-bottom: 60px;
   flex-wrap: wrap;
+  text-align: center;
+}
+
+.section-head > div {
+  display: grid;
+  gap: 14px;
+  justify-items: center;
 }
 
 .section-head .num {
@@ -601,8 +624,8 @@ main > section {
 
 .section-head p.intro {
   color: var(--ink-soft);
-  max-width: 520px;
-  margin-left: auto;
+  max-width: 760px;
+  margin-left: 0;
   font-size: 16px;
 }
 
@@ -614,6 +637,8 @@ main > section {
   border: 1px solid var(--line);
   border-radius: 16px;
   overflow: hidden;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 
 .stack-cat,
@@ -629,6 +654,10 @@ main > section {
 .stack-cat {
   padding: 28px;
   transition: background 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .stack-cat:hover {
@@ -674,6 +703,11 @@ main > section {
 }
 
 .stack-cat ul,
+.tags {
+  justify-content: center;
+}
+
+.stack-cat ul,
 .project-evidence {
   list-style: none;
 }
@@ -692,6 +726,8 @@ main > section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 
 .step {
@@ -699,6 +735,7 @@ main > section {
   padding: 32px 24px;
   border-radius: 20px;
   transition: transform 0.3s;
+  text-align: center;
 }
 
 .step:hover {
@@ -744,17 +781,22 @@ main > section {
 .project-clusters {
   display: grid;
   gap: 28px;
+  justify-items: center;
 }
 
 .project-cluster {
   display: grid;
   gap: 18px;
+  width: min(100%, 1120px);
 }
 
 .project-cluster-head {
   display: grid;
   gap: 10px;
   max-width: 860px;
+  margin: 0 auto;
+  justify-items: center;
+  text-align: center;
 }
 
 .project-cluster-head h3 {
@@ -769,6 +811,7 @@ main > section {
   display: grid;
   grid-template-columns: 1fr;
   gap: 18px;
+  width: 100%;
 }
 
 .project-card {
@@ -851,10 +894,17 @@ main > section {
 
 .project-card--compact .project-info {
   gap: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 .project-card--compact h3 {
   font-size: 24px;
+}
+
+.project-card--compact .meta {
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project-body {
@@ -966,6 +1016,8 @@ main > section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 
 .testimonial {
@@ -973,8 +1025,10 @@ main > section {
   padding: 32px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   position: relative;
+  text-align: center;
 }
 
 .testimonial::before {
@@ -1011,9 +1065,15 @@ main > section {
 .testimonial .who {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   padding-top: 20px;
   border-top: 1px solid var(--line);
+  width: 100%;
+}
+
+.testimonial .who > div {
+  text-align: left;
 }
 
 .testimonial .avatar {
@@ -1080,10 +1140,11 @@ main > section {
   color: var(--ink);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   gap: 6px;
   transition: all 0.2s;
-  text-align: left;
+  text-align: center;
 }
 
 .contact-card:hover {
@@ -1119,12 +1180,13 @@ main > section {
   border-top: 1px solid var(--line);
   padding: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-size: 12px;
   color: var(--ink-muted);
   flex-wrap: wrap;
   gap: 20px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
@@ -1152,14 +1214,15 @@ main > section {
   }
 
   .hero-visual {
-    justify-self: start;
+    justify-self: center;
     max-width: 320px;
     margin-bottom: 48px;
   }
 
   .hero-social-links {
     position: static;
-    margin-top: 24px;
+    margin: 24px auto 0;
+    transform: none;
   }
 
   .process-steps {
