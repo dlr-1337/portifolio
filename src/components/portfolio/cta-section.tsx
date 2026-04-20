@@ -45,7 +45,7 @@ export function CtaSection({ content, contactCards, socialLinks }: CtaSectionPro
 
       <div className="contact-actions">
         <a href={socialLinks.whatsapp} className="btn-primary">
-          {content.primaryCtaLabel} <span className="arrow">→</span>
+          {content.primaryCtaLabel} <span className="arrow">{"->"}</span>
         </a>
         <a href={socialLinks.email} className="btn-ghost">
           {content.secondaryCtaLabel}

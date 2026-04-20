@@ -8,7 +8,7 @@ interface CasesSectionProps {
 }
 
 const visibilityLabel = {
-  public: "publico",
+  public: "público",
   private: "privado",
   anonymous: "anonimizado",
 } as const;
@@ -60,7 +60,7 @@ export function CasesSection({ content, showcase }: CasesSectionProps) {
                       <p>{item.problem}</p>
                     </div>
                     <div>
-                      <strong>Solucao</strong>
+                      <strong>Solução</strong>
                       <p>{item.solution}</p>
                     </div>
                     <div>
@@ -103,7 +103,7 @@ export function CasesSection({ content, showcase }: CasesSectionProps) {
           <div className="project-cluster-head">
             <div className="num">- 03b / entregas</div>
             <h3>Entregas selecionadas</h3>
-            <p>Cases fora do GitHub que reforcam operacao remota, integracao e execucao ponta a ponta.</p>
+            <p>Projetos fora do GitHub que reforçam operação remota, integração e execução ponta a ponta.</p>
           </div>
 
           <div className="project-list">
@@ -124,7 +124,7 @@ export function CasesSection({ content, showcase }: CasesSectionProps) {
                       <p>{item.problem}</p>
                     </div>
                     <div>
-                      <strong>Solucao</strong>
+                      <strong>Solução</strong>
                       <p>{item.solution}</p>
                     </div>
                     <div>

@@ -22,7 +22,7 @@ export function ServicesSection({
     >
       <div className="section-head">
         <div>
-          <div className="num">— 01 / atuacao</div>
+          <div className="num">- 01 / atuação</div>
           <h2>{serviceLines.title}</h2>
         </div>
         <p className="intro">{serviceLines.intro}</p>
