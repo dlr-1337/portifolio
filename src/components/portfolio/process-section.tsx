@@ -18,7 +18,7 @@ export function ProcessSection({ content }: ProcessSectionProps) {
     >
       <div className="section-head">
         <div>
-          <div className="num">— 02 / processo</div>
+          <div className="num">- 02 / processo</div>
           <h2>{content.title}</h2>
         </div>
         <p className="intro">{content.intro}</p>

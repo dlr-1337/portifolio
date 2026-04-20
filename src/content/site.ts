@@ -2,23 +2,23 @@ import type { SiteContent } from "@/types/content";
 
 export const siteContent: SiteContent = {
   person: {
-    name: "Otavio Queiroz",
-    role: "Desenvolvedor Full Stack Senior",
+    name: "Otávio Queiroz",
+    role: "Desenvolvedor Full Stack Sênior",
     location: "GO - Brasil | Remoto",
-    availability: "Projetos selecionados e consultoria tecnica",
+    availability: "Projetos selecionados e consultoria técnica",
     tagline:
-      "Full stack senior para sistemas, integracoes, automacoes, IA aplicada e operacao digital ponta a ponta.",
+      "Full stack sênior para sistemas, integrações, automações, IA aplicada e operação digital ponta a ponta.",
   },
   hero: {
-    eyebrow: "Operating System de Entrega",
-    badge: "Disponivel para projetos selecionados · resposta em ate 24h",
+    eyebrow: "Sistema operacional de entrega",
+    badge: "Disponível para projetos selecionados | resposta em até 24h",
     headline: "Assumo a engenharia",
     highlight: "sem caos",
     accentWord: "&",
     closingLine: "com entrega no prazo.",
     subheadline:
-      "Eu entro em cenarios complexos, organizo a parte tecnica e entrego sistemas, integracoes, automacoes, IA, deploy e evolucao com visao pratica de negocio.",
-    primaryCtaLabel: "Pedir orcamento no WhatsApp",
+      "Eu entro em cenários complexos, organizo a parte técnica e entrego sistemas, integrações, automações, IA, deploy e evolução com visão prática de negócio.",
+    primaryCtaLabel: "Pedir orçamento no WhatsApp",
     secondaryCtaLabel: "Enviar e-mail",
     stickers: [
       {
@@ -26,7 +26,7 @@ export const siteContent: SiteContent = {
         tone: "accent",
       },
       {
-        text: "produto + integracoes + ia",
+        text: "produto + integrações + IA",
         tone: "moss",
       },
     ],
@@ -37,7 +37,7 @@ export const siteContent: SiteContent = {
         command: "whoami",
       },
       {
-        output: "otavio | full stack senior para negocio",
+        output: "otavio | full stack sênior para negócio",
       },
       {
         prompt: "~",
@@ -55,7 +55,7 @@ export const siteContent: SiteContent = {
         indentLevel: 1,
       },
       {
-        output: '"ia": ["agentes", "gemini", "deepseek"],',
+        output: '"ia": ["agentes", "Gemini", "DeepSeek"],',
         indentLevel: 1,
       },
       {
@@ -70,7 +70,7 @@ export const siteContent: SiteContent = {
         command: "status",
       },
       {
-        output: "• engenharia clara | execucao ponta a ponta",
+        output: "• engenharia clara | execução ponta a ponta",
         outputTone: "ok",
       },
       {
@@ -82,96 +82,96 @@ export const siteContent: SiteContent = {
   marqueeItems: [
     "Sistemas web",
     "SaaS sob medida",
-    "Integracoes & APIs",
+    "Integrações & APIs",
     "WhatsApp",
     "IA aplicada",
     "Dashboards operacionais",
     "Deploy",
     "VPS & Docker",
-    "Automacoes",
+    "Automações",
     "Back-end forte",
   ],
   proof: {
-    title: "O que clientes dizem depois da entrega",
+    title: "O que os clientes dizem depois da entrega",
     intro:
-      "A confianca aqui vem de entrega resolvida. Menos exibicao de numero, mais contexto real sobre clareza, velocidade e capacidade de organizar cenarios complexos.",
+      "A confiança aqui vem de entrega resolvida. Menos exibição de números, mais contexto real sobre clareza, velocidade e capacidade de organizar cenários complexos.",
     testimonials: [
       {
-        title: "Rapidez com seguranca tecnica",
+        title: "Rapidez com segurança técnica",
         quote:
-          "A entrega andou rapido sem virar gambiarra. O ambiente ficou funcional, estavel e com uma base que fazia sentido para operar depois.",
-        author: "Cliente de integracao",
+          "A entrega andou rápido sem virar gambiarra. O ambiente ficou funcional, estável e com uma base que fazia sentido para operar depois.",
+        author: "Cliente de integração",
         role: "Entrega com VPS, IA e mensageria",
         avatarLabel: "IA",
         rating: 5,
       },
       {
-        title: "Comunicacao clara durante a execucao",
+        title: "Comunicação clara durante a execução",
         quote:
-          "As respostas foram objetivas, o escopo ficou claro e sempre existia um proximo passo concreto. Isso reduz muito atrito para quem esta contratando.",
+          "As respostas foram objetivas, o escopo ficou claro e sempre existia um próximo passo concreto. Isso reduz muito atrito para quem está contratando.",
         author: "Cliente de produto",
         role: "Projeto sob demanda com entrega ponta a ponta",
         avatarLabel: "PD",
         rating: 5,
       },
       {
-        title: "Capacidade de assumir cenarios complexos",
+        title: "Capacidade de assumir cenários complexos",
         quote:
-          "Os projetos mais fortes envolvem stack misturada, deploy, integrações sensiveis, IA aplicada e operacao real. O diferencial esta em organizar tudo isso com criterio.",
-        author: "Curadoria tecnica",
-        role: "Leitura consolidada dos projetos selecionados",
+          "Os projetos mais fortes envolvem stack mista, deploy, integrações sensíveis, IA aplicada e operação real. O diferencial está em organizar tudo isso com critério.",
+        author: "Curadoria técnica",
+        role: "Leitura consolidada de projetos selecionados",
         avatarLabel: "OP",
         rating: 5,
       },
     ],
   },
   serviceLines: {
-    title: "Toolbox completa para produto e operacao",
+    title: "Estrutura completa para produto e operação",
     intro:
-      "O problema do cliente vem primeiro. A stack entra como ferramenta para estruturar, integrar, estabilizar e fazer a operacao rodar sem gargalo tecnico.",
+      "O problema do cliente vem primeiro. A stack entra como ferramenta para estruturar, integrar, estabilizar e fazer a operação rodar sem gargalo técnico.",
     items: [
       {
         label: "sistemas",
         title: "Sistemas Web & SaaS",
         description:
-          "Planejo e construo produtos web, paineis administrativos, areas operacionais e MVPs que precisam nascer com estrutura para evoluir.",
+          "Planejo e construo produtos web, painéis administrativos, áreas operacionais e MVPs que precisam nascer com estrutura para evoluir.",
         signals: [
-          "Arquitetura de aplicacao",
-          "Fluxos internos e area admin",
-          "Back-office e operacao diaria",
+          "Arquitetura de aplicação",
+          "Fluxos internos e área administrativa",
+          "Back-office e operação diária",
         ],
       },
       {
         label: "integracoes",
-        title: "Integracoes & APIs",
+        title: "Integrações & APIs",
         description:
-          "Conecto plataformas, estruturo regras de negocio entre sistemas e transformo APIs, webhooks e servicos externos em fluxo confiavel.",
+          "Conecto plataformas, estruturo regras de negócio entre sistemas e transformo APIs, webhooks e serviços externos em fluxo confiável.",
         signals: [
           "APIs REST e webhooks",
-          "Conectores entre servicos",
-          "Sincronizacao e consistencia",
+          "Conectores entre serviços",
+          "Sincronização e consistência",
         ],
       },
       {
         label: "automacoes",
-        title: "Automacoes & IA Aplicada",
+        title: "Automações & IA Aplicada",
         description:
-          "Desenho fluxos que reduzem operacao manual, integram IA de forma util e colocam tarefas repetitivas para rodar com controle.",
+          "Desenho fluxos que reduzem operação manual, integram IA de forma útil e colocam tarefas repetitivas para rodar com controle.",
         signals: [
           "Bots e fluxos assistidos",
           "WhatsApp, LLMs e agentes",
-          "Automacao com supervisao real",
+          "Automação com supervisão real",
         ],
       },
       {
         label: "infra",
-        title: "Estabilizacao, Deploy & Evolucao",
+        title: "Estabilização, Deploy & Evolução",
         description:
-          "Entro em ambientes travados para corrigir gargalos, estabilizar infraestrutura, reorganizar a execucao e preparar a proxima fase do produto.",
+          "Entro em ambientes travados para corrigir gargalos, estabilizar infraestrutura, reorganizar a execução e preparar a próxima fase do produto.",
         signals: [
           "VPS, Docker e cloud",
           "Melhoria de confiabilidade",
-          "Hardening tecnico e deploy",
+          "Hardening técnico e deploy",
         ],
       },
     ],
@@ -182,33 +182,33 @@ export const siteContent: SiteContent = {
         label: "backend",
         title: "Back-end, arquitetura e dados",
         description:
-          "Baseio a entrega em modelagem de dados, API consistente, isolamento de responsabilidades e evolucao sem improviso.",
+          "Baseio cada entrega em modelagem de dados, APIs consistentes, isolamento de responsabilidades e evolução sem improviso.",
         items: [
           "Node.js, TypeScript e Python",
           "PostgreSQL, SQLite e modelagem operacional",
-          "Camadas de dominio, workers e servicos",
+          "Camadas de domínio, workers e serviços",
         ],
       },
       {
         label: "ia",
-        title: "Integracoes, automacao e IA",
+        title: "Integrações, automação e IA",
         description:
-          "Conecto provedores, mensageria e ferramentas externas com foco em processo real, nao em demo bonita.",
+          "Conecto provedores, mensageria e ferramentas externas com foco em processo real, não em demo bonita.",
         items: [
           "WhatsApp, webhooks e APIs de terceiros",
           "LLMs, Gemini, DeepSeek e fluxos assistidos",
-          "Automacoes com auditoria e controle",
+          "Automações com auditoria e controle",
         ],
       },
       {
         label: "frontend",
-        title: "Interfaces, dashboards e operacao",
+        title: "Interfaces, dashboards e operação",
         description:
-          "Entrego interfaces que ajudam a operar, decidir e acompanhar o produto com clareza para usuario e negocio.",
+          "Entrego interfaces que ajudam a operar, decidir e acompanhar o produto com clareza para usuário e negócio.",
         items: [
-          "Next.js, React e paineis administrativos",
-          "Landing pages com funcao comercial clara",
-          "Experiencias responsivas e orientadas a conversao",
+          "Next.js, React e painéis administrativos",
+          "Landing pages com função comercial clara",
+          "Experiências responsivas e orientadas à conversão",
         ],
       },
     ],
@@ -216,29 +216,29 @@ export const siteContent: SiteContent = {
   featuredCases: {
     title: "Alguns trabalhos recentes",
     intro:
-      "A curadoria abaixo prioriza projetos que mostram capacidade de assumir problema real, organizar a solucao tecnica e entregar com impacto operacional.",
+      "A curadoria abaixo prioriza projetos que mostram capacidade de assumir problemas reais, organizar a solução técnica e entregar com impacto operacional.",
     items: [
       {
         slug: "cobrazap",
         title: "CobraZap",
-        source: "produto / github publico",
+        source: "produto / GitHub público",
         visibility: "public",
         problem:
-          "Pequenos negocios precisavam cobrar recorrencia por WhatsApp e Pix sem depender de planilha, follow-up manual ou um ERP pesado demais.",
+          "Pequenos negócios precisavam cobrar recorrências por WhatsApp e Pix sem depender de planilhas, follow-up manual ou de um ERP pesado demais.",
         solution:
-          "Estruturei um micro-SaaS B2B multi-tenant com cobrancas recorrentes, fluxo operacional por apps e packages separados, regras de negocio, billing e trilha de evolucao tecnica.",
+          "Estruturei um micro-SaaS B2B multi-tenant com cobranças recorrentes, fluxo operacional em apps e pacotes separados, regras de negócio, billing e trilha de evolução técnica.",
         outcome:
-          "A base ficou preparada para onboarding, configuracao operacional, cobranca recorrente, integracoes, filas e crescimento por modulos.",
+          "A base ficou preparada para onboarding, configuração operacional, cobrança recorrente, integrações, filas e crescimento por módulos.",
         businessValue:
-          "Reforca capacidade de pensar produto, arquitetura, operacao financeira e execucao ponta a ponta em um contexto de negocio real.",
+          "Reforça a capacidade de pensar produto, arquitetura, operação financeira e execução ponta a ponta em um contexto de negócio real.",
         stack: ["Next.js", "TypeScript", "PostgreSQL", "Redis", "Pix", "WhatsApp"],
         evidence: [
-          "Monorepo com apps de web, api e worker, mais camadas de dominio e integracoes.",
-          "Escopo orientado a multi-tenant, auditoria, automacao e operacao diaria.",
+          "Monorepo com apps web, API e worker, além de camadas de domínio e integrações.",
+          "Escopo orientado a multi-tenant, auditoria, automação e operação diária.",
         ],
         links: [
           {
-            label: "Repositorio",
+            label: "Repositório",
             href: "https://github.com/dlr-1337/cobranca-whatsapp-pix",
           },
         ],
@@ -247,24 +247,24 @@ export const siteContent: SiteContent = {
       {
         slug: "tempmail",
         title: "tempmail",
-        source: "engenharia / github publico",
+        source: "engenharia / GitHub público",
         visibility: "public",
         problem:
-          "Criar um servico self-hosted de e-mail descartavel com operacao publica, recepcao SMTP, controle de abuso e leitura em tempo real.",
+          "Criar um serviço self-hosted de e-mail descartável com operação pública, recepção SMTP, controle de abuso e leitura em tempo real.",
         solution:
-          "Implementei um back-end completo com Fastify, SMTP server, persistencia em SQLite, sweeper de expiracao, streaming SSE e interface web dedicada.",
+          "Implementei um back-end completo com Fastify, servidor SMTP, persistência em SQLite, sweeper de expiração, streaming SSE e interface web dedicada.",
         outcome:
-          "O projeto ficou com composicao de producao, protecoes operacionais, armazenamento de anexos e fronteira clara entre transporte, core e UI.",
+          "O projeto ficou com composição de produção, proteções operacionais, armazenamento de anexos e fronteira clara entre transporte, core e UI.",
         businessValue:
-          "Mostra profundidade em back-end, protocolos, seguranca basica de operacao e desenho de sistema com varias responsabilidades integradas.",
+          "Mostra profundidade em back-end, protocolos, segurança básica de operação e desenho de sistema com várias responsabilidades integradas.",
         stack: ["Fastify", "TypeScript", "SMTP", "SQLite", "SSE", "Svelte"],
         evidence: [
-          "Composition root de producao com shutdown gracioso, validacao de ambiente e monitoramento de estado.",
-          "Separacao entre HTTP, SMTP, core, armazenamento e camada web.",
+          "Composition root de produção com shutdown gracioso, validação de ambiente e monitoramento de estado.",
+          "Separação entre HTTP, SMTP, core, armazenamento e camada web.",
         ],
         links: [
           {
-            label: "Repositorio",
+            label: "Repositório",
             href: "https://github.com/dlr-1337/tempmail",
           },
         ],
@@ -273,20 +273,20 @@ export const siteContent: SiteContent = {
       {
         slug: "deploy-ia-whatsapp-vps",
         title: "Deploy de IA + WhatsApp em VPS",
-        source: "operacao remota",
+        source: "operação remota",
         visibility: "public",
         problem:
-          "O cliente precisava colocar um agente de IA rodando em VPS com ponte para WhatsApp, modelos externos e ambiente estavel, tudo sob prazo curto.",
+          "O cliente precisava colocar um agente de IA rodando em VPS com ponte para WhatsApp, modelos externos e ambiente estável, tudo sob prazo curto.",
         solution:
-          "Assumi a configuracao do ambiente, a integracao com provedores de IA, a ponte com WhatsApp e a validacao do fluxo real em producao.",
+          "Assumi a configuração do ambiente, a integração com provedores de IA, a ponte com WhatsApp e a validação do fluxo real em produção.",
         outcome:
-          "O ambiente ficou funcional, com fluxo operacional pronto, deploy consistente e base confiavel para continuar operando sem improviso.",
+          "O ambiente ficou funcional, com fluxo operacional pronto, deploy consistente e base confiável para continuar operando sem improviso.",
         businessValue:
-          "Evidencia capacidade de atuar em IA aplicada, deploy, Linux, integracoes sensiveis e estabilizacao de stack complexa sob contexto real.",
+          "Evidencia capacidade de atuar em IA aplicada, deploy, Linux, integrações sensíveis e estabilização de stack complexa em contexto real.",
         stack: ["Linux", "Docker", "VPS", "OpenClaw", "DeepSeek", "WhatsApp"],
         evidence: [
-          "Entrega orientada a arquitetura de agentes, ambiente remoto real e validacao ponta a ponta do fluxo.",
-          "Projeto com exigencia tecnica alta em infraestrutura, integracao e operacao sob pressao de prazo.",
+          "Entrega orientada à arquitetura de agentes, ambiente remoto real e validação ponta a ponta do fluxo.",
+          "Projeto com exigência técnica alta em infraestrutura, integração e operação sob pressão de prazo.",
         ],
         links: [],
         visualVariant: "terminal",
@@ -297,17 +297,17 @@ export const siteContent: SiteContent = {
         source: "projeto privado",
         visibility: "private",
         problem:
-          "Era preciso unir landing comercial, dois fluxos de chatbot com IA, contato real por e-mail e um admin privado de galeria para atualizacao sem equipe tecnica.",
+          "Era preciso unir uma landing page comercial, dois fluxos de chatbot com IA, contato real por e-mail e um painel administrativo privado de galeria para atualização sem equipe técnica.",
         solution:
-          "Estruturei uma base com landing, endpoints de chat em streaming, integracao com Gemini e Resend, galeria dinamica, autenticacao administrativa e operacao em Vercel.",
+          "Estruturei uma base com landing page, endpoints de chat em streaming, integração com Gemini e Resend, galeria dinâmica, autenticação administrativa e operação na Vercel.",
         outcome:
-          "O projeto reuniu experiencia comercial, IA aplicada, administracao privada e fluxo de contato funcional em uma unica base pronta para evoluir.",
+          "O projeto reuniu experiência comercial, IA aplicada, administração privada e fluxo de contato funcional em uma única base pronta para evoluir.",
         businessValue:
-          "Mostra capacidade de integrar front-end, back-end leve, mensageria, administracao interna e manutencao de conteudo em um produto orientado a experiencia.",
+          "Mostra capacidade de integrar front-end, back-end leve, mensageria, administração interna e manutenção de conteúdo em um produto orientado à experiência.",
         stack: ["TypeScript", "Gemini API", "Resend", "Vercel Blob", "Admin Panel"],
         evidence: [
-          "Landing com PT/EN, multiplos chat flows, contato funcional e admin de galeria protegido.",
-          "Projeto privado nomeado por valor de repertorio, sem exposicao estrutural em schema ou links inline.",
+          "Landing com PT/EN, múltiplos chat flows, contato funcional e painel de galeria protegido.",
+          "Projeto privado nomeado pelo valor de repertório, sem exposição estrutural em schema ou links inline.",
         ],
         links: [],
         visualVariant: "window",
@@ -317,7 +317,7 @@ export const siteContent: SiteContent = {
   githubShowcase: {
     title: "GitHub selecionado",
     intro:
-      "Alguns repositorios reforcam repertorio de arquitetura, automacao, produto operacional e stack real alem dos cases principais.",
+      "Alguns repositórios reforçam repertório de arquitetura, automação, produto operacional e stack real além dos projetos principais.",
     items: [
       {
         name: "quotex-trading-platform",
@@ -331,64 +331,64 @@ export const siteContent: SiteContent = {
         label: "private / monorepo operacional",
         visibility: "private",
         summary:
-          "Monorepo com Next.js, Prisma, worker e configuracao operacional para automacao de prospeccao e health de conectores.",
+          "Monorepo com Next.js, Prisma, worker e configuração operacional para automação de prospecção e monitoramento de conectores.",
       },
       {
         name: "flashradar.trade",
         label: "public / painel local",
         visibility: "public",
         summary:
-          "Painel local multiusuario em PHP para odds e operacao manual, com runtime embutido para Windows e uso install-free.",
+          "Painel local multiusuário em PHP para odds e operação manual, com runtime embutido para Windows e uso sem instalação.",
       },
     ],
   },
   process: {
-    title: "Sem surpresa, sem enrolacao",
+    title: "Sem surpresa, sem enrolação",
     intro:
-      "Meu processo foi moldado para entrar em contexto rapido, reduzir ambiguidade e transformar problema tecnico em execucao previsivel do primeiro contato ao deploy.",
+      "Meu processo foi moldado para entrar em contexto rápido, reduzir ambiguidade e transformar problema técnico em execução previsível do primeiro contato ao deploy.",
     stages: [
       {
-        title: "Diagnostico",
+        title: "Diagnóstico",
         description:
-          "Entendo a operacao, identifico gargalos, dependencias e risco tecnico antes de sair construindo qualquer coisa.",
+          "Entendo a operação, identifico gargalos, dependências e risco técnico antes de sair construindo qualquer coisa.",
         outcome: "Clareza sobre o que precisa ser resolvido e em que ordem.",
-        paceLabel: "30-60 min · alinhamento inicial",
+        paceLabel: "30-60 min | alinhamento inicial",
       },
       {
         title: "Arquitetura",
         description:
-          "Defino a estrutura mais adequada para o caso: componentes, servicos, integracoes, dados e caminhos de evolucao.",
-        outcome: "Decisoes tecnicas coerentes com negocio, prazo e manutencao.",
-        paceLabel: "escopo claro · proposta objetiva",
+          "Defino a estrutura mais adequada para o caso: componentes, serviços, integrações, dados e caminhos de evolução.",
+        outcome: "Decisões técnicas coerentes com negócio, prazo e manutenção.",
+        paceLabel: "escopo claro | proposta objetiva",
       },
       {
-        title: "Execucao",
+        title: "Execução",
         description:
-          "Implemento com foco em entrega real: back-end, front-end, integracoes, automacoes, testes e fechamento de pontas.",
-        outcome: "Sistema funcional, escopo controlado e comunicacao objetiva.",
-        paceLabel: "sprints semanais · visibilidade constante",
+          "Implemento com foco em entrega real: back-end, front-end, integrações, automações, testes e fechamento de pontas.",
+        outcome: "Sistema funcional, escopo controlado e comunicação objetiva.",
+        paceLabel: "sprints semanais | visibilidade constante",
       },
       {
-        title: "Estabilizacao",
+        title: "Estabilização",
         description:
-          "Valido ambiente, ajusto detalhes operacionais, documento o necessario e preparo o produto para rodar e evoluir.",
-        outcome: "Mais confianca para operar hoje e evoluir amanha.",
-        paceLabel: "deploy, suporte inicial e proximo passo",
+          "Valido o ambiente, ajusto detalhes operacionais, documento o necessário e preparo o produto para rodar e evoluir.",
+        outcome: "Mais confiança para operar hoje e evoluir amanhã.",
+        paceLabel: "deploy, suporte inicial e próximo passo",
       },
     ],
   },
   closingCta: {
     title: "Vamos construir alguma coisa?",
     description:
-      "Me conta o contexto, o prazo e onde a parte tecnica esta travando. Posso estruturar do zero, destravar uma entrega travada ou assumir a operacao que precisa de mais criterio.",
+      "Me conte o contexto, o prazo e onde a parte técnica está travando. Posso estruturar do zero, destravar uma entrega travada ou assumir a operação que precisa de mais critério.",
     highlight:
-      "Escopo claro, prioridade certa e execucao ponta a ponta com visao pratica de negocio.",
-    primaryCtaLabel: "Pedir orcamento agora",
+      "Escopo claro, prioridade certa e execução ponta a ponta com visão prática de negócio.",
+    primaryCtaLabel: "Pedir orçamento agora",
     secondaryCtaLabel: "Enviar e-mail",
   },
   contactCards: [
     {
-      label: "whatsapp · preferido",
+      label: "whatsapp | preferido",
       value: "+55 64 9331-5577",
       href: "https://wa.me/556493315577",
     },
@@ -409,9 +409,9 @@ export const siteContent: SiteContent = {
     },
   ],
   footer: {
-    signature: "Otavio Queiroz · Desenvolvedor Full Stack Senior",
+    signature: "Otávio Queiroz | Desenvolvedor Full Stack Sênior",
     rights: "Todos os direitos reservados.",
-    note: "GitHub e LinkedIn disponiveis como referencia publica de repertorio e entrega.",
+    note: "GitHub e LinkedIn disponíveis como referência pública de repertório e entrega.",
   },
   socialLinks: {
     whatsapp: "https://wa.me/556493315577",
@@ -424,18 +424,18 @@ export const siteContent: SiteContent = {
     linkedin: "LinkedIn",
   },
   seo: {
-    title: "Otavio Queiroz | Full Stack Senior para sistemas, integracoes, automacoes e IA",
+    title: "Otávio Queiroz | Full Stack Sênior para sistemas, integrações, automações e IA",
     description:
-      "Otavio Queiroz atua como full stack senior em sistemas web, integracoes, automacoes, IA aplicada, WhatsApp, deploy e operacao tecnica ponta a ponta.",
+      "Otávio Queiroz atua como full stack sênior em sistemas web, integrações, automações, IA aplicada, WhatsApp, deploy e operação técnica ponta a ponta.",
     siteUrl: "https://otavioqueiroz.com",
     ogImage: "/og/portfolio-cover.svg",
     locale: "pt_BR",
     keywords: [
-      "desenvolvedor full stack senior",
-      "integracoes e automacoes",
-      "apis e sistemas web",
-      "whatsapp e ia aplicada",
-      "consultoria tecnica full stack",
+      "desenvolvedor full stack sênior",
+      "integrações e automações",
+      "APIs e sistemas web",
+      "WhatsApp e IA aplicada",
+      "consultoria técnica full stack",
       "desenvolvimento ponta a ponta",
     ],
   },

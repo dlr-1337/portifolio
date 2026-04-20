@@ -4,7 +4,7 @@ interface MarqueeSectionProps {
 
 export function MarqueeSection({ items }: MarqueeSectionProps) {
   return (
-    <div className="marquee" aria-label="Marquee de repertorio">
+    <div className="marquee" aria-label="Faixa de repertório">
       <div className="marquee-inner">
         {[...items, ...items].map((item, index) => (
           <span key={`${item}-${index}`}>

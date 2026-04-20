@@ -40,7 +40,7 @@ export function HeroSection({ hero, socialLinks, socialLabels }: HeroSectionProp
 
         <div className="hero-cta-row">
           <a href={socialLinks.whatsapp} className="btn-primary">
-            {hero.primaryCtaLabel} <span className="arrow">-&gt;</span>
+            {hero.primaryCtaLabel} <span className="arrow">{"->"}</span>
           </a>
           <a href={socialLinks.email} className="btn-ghost">
             {hero.secondaryCtaLabel}
@@ -53,7 +53,7 @@ export function HeroSection({ hero, socialLinks, socialLabels }: HeroSectionProp
           {hero.stickers[0]?.text}
         </div>
 
-        <div className="code-card" aria-label="Preview tecnico">
+        <div className="code-card" aria-label="Preview técnico">
           <div className="code-card-top">
             <span className="dot r" />
             <span className="dot y" />

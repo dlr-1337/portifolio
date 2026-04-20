@@ -16,15 +16,15 @@ interface PortfolioPageProps {
 export function PortfolioPage({ content }: PortfolioPageProps) {
   return (
     <div className="portfolio-shell">
-      <nav aria-label="Navegacao primaria" className="portfolio-nav">
+      <nav aria-label="Navegação primária" className="portfolio-nav">
         <a className="brand" href="#inicio">
           {content.person.name.split(" ")[0]}
-          <span className="brand-subtle">— fullstack</span>
+          <span className="brand-subtle">- full stack</span>
         </a>
 
         <ul>
           <li>
-            <a href="#stack">Atuacao</a>
+            <a href="#stack">Atuação</a>
           </li>
           <li>
             <a href="#processo">Processo</a>
@@ -37,7 +37,7 @@ export function PortfolioPage({ content }: PortfolioPageProps) {
           </li>
           <li>
             <a href="#contato" className="cta-nav">
-              Orcamento →
+              Orçamento {"->"}
             </a>
           </li>
         </ul>
