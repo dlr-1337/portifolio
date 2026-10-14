@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio profissional
 
-## Getting Started
+**Um site de apresentação de serviços, processo de trabalho e projetos de desenvolvimento full stack.**
 
-First, run the development server:
+Aplicação Next.js com conteúdo separado dos componentes visuais. A página reúne apresentação, áreas de atuação, processo, cases, prova social e caminhos de contato em uma navegação por seções.
+
+> Este repositório contém o site de portfólio. Ele é independente do repositório especial que exibe o README do perfil no GitHub.
+
+## O que está implementado
+
+| Área | Conteúdo |
+| --- | --- |
+| Apresentação | Hero com posicionamento profissional e links sociais. |
+| Atuação | Serviços e agrupamentos de capacidades técnicas. |
+| Processo | Explicação das etapas de trabalho. |
+| Projetos | Cases e seleção de projetos GitHub. |
+| Contato | Chamadas para orçamento e cartões de contato. |
+| Dados estruturados | Representações `Person` e `CreativeWork` em JSON-LD; esta última considera cases marcados como públicos. |
+
+## Executar
+
+Prepare Node.js e npm compatíveis com as dependências do projeto. O manifesto declara Next.js **16.1.6**, React **19.2.3** e Motion.
 
 ```bash
+git clone https://github.com/dlr-1337/portifolio.git
+cd portifolio
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra **http://localhost:3000**. Para preparar uma execução de produção local:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Onde editar
 
-## Learn More
+| Caminho | Responsabilidade |
+| --- | --- |
+| [src/app/page.tsx](src/app/page.tsx) | Entrada da página e JSON-LD. |
+| [src/content/site.ts](src/content/site.ts) | Conteúdo central utilizado pela página. |
+| [src/components/portfolio/](src/components/portfolio/) | Componentes de cada seção. |
+| [portfolio-page.tsx](src/components/portfolio/portfolio-page.tsx) | Composição, navegação e rodapé. |
+| [package.json](package.json) | Scripts e dependências. |
 
-To learn more about Next.js, take a look at the following resources:
+Os textos e cases são passados aos componentes por `SiteContent`. Atualizar o conteúdo central reduz duplicação entre seções e dados estruturados, mas não substitui a revisão da página final. Antes de incluir um case, confira autorização de divulgação, links, imagens e afirmações de resultado.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Verificação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run lint
+npm test
+npm run build
+```
 
-## Deploy on Vercel
+A estrutura de testes usa Vitest, Testing Library e jsdom. Os scripts permitem validar alterações; sua presença não comprova uma execução aprovada ou a disponibilidade de um site publicado.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Escopo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto apresenta trabalho e canais de contato. Links de orçamento não devem ser descritos como um fluxo de contratação ou pagamento sem uma integração correspondente. A disponibilização do código também não concede automaticamente direitos sobre imagens, marcas e conteúdos dos cases.
